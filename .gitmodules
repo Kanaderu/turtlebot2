@@ -13,3 +13,9 @@
 [submodule "src/dependencies/depthimage_to_laserscan"]
 	path = src/dependencies/depthimage_to_laserscan
 	url = https://github.com/ros-perception/depthimage_to_laserscan.git
+[submodule "src/dependencies/navigation"]
+	path = src/dependencies/navigation
+	url = https://github.com/ros-planning/navigation.git
+[submodule "src/dependencies/navigation_msgs"]
+	path = src/dependencies/navigation_msgs
+	url = https://github.com/ros-planning/navigation_msgs.git
