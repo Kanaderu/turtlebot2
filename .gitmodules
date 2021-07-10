@@ -19,3 +19,30 @@
 [submodule "src/dependencies/navigation_msgs"]
 	path = src/dependencies/navigation_msgs
 	url = https://github.com/ros-planning/navigation_msgs.git
+[submodule "src/dependencies/kobuki"]
+	path = src/dependencies/kobuki/kobuki
+	url = https://github.com/yujinrobot/kobuki.git
+[submodule "src/dependencies/ecl_core"]
+	path = src/dependencies/ecl/ecl_core
+	url = https://github.com/stonier/ecl_core.git
+[submodule "src/dependencies/ecl_lite"]
+	path = src/dependencies/ecl/ecl_lite
+	url = https://github.com/stonier/ecl_lite.git
+[submodule "src/dependencies/ecl_tools"]
+	path = src/dependencies/ecl/ecl_tools
+	url = https://github.com/stonier/ecl_tools.git
+[submodule "src/dependencies/ecl/sophus"]
+	path = misc/ecl/sophus
+	url = https://github.com/stonier/sophus.git
+[submodule "src/dependencies/kobuki_msgs"]
+	path = src/dependencies/kobuki/kobuki_msgs
+	url = https://github.com/yujinrobot/kobuki_msgs.git
+[submodule "misc/yujin_ocs"]
+	path = misc/yujin_ocs
+	url = https://github.com/yujinrobot/yujin_ocs.git
+[submodule "src/dependencies/kobuki_core"]
+	path = src/dependencies/kobuki/kobuki_core
+	url = https://github.com/yujinrobot/kobuki_core.git
+[submodule "src/dependencies/ecl_navigation"]
+	path = src/dependencies/ecl/ecl_navigation
+	url = https://github.com/stonier/ecl_navigation.git
