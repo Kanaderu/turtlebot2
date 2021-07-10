@@ -1,0 +1,3 @@
+[submodule "src/joystick_drivers"]
+	path = src/joystick_drivers
+	url = https://github.com/ros-drivers/joystick_drivers.git
