@@ -4,3 +4,12 @@
 [submodule "src/dependencies/turtlebot"]
 	path = src/dependencies/turtlebot
 	url = https://github.com/turtlebot/turtlebot.git
+[submodule "src/dependencies/geometry2"]
+	path = src/dependencies/geometry2
+	url = https://github.com/ros/geometry2.git
+[submodule "src/dependencies/common_msgs"]
+	path = src/dependencies/common_msgs
+	url = https://github.com/ros/common_msgs.git
+[submodule "src/dependencies/depthimage_to_laserscan"]
+	path = src/dependencies/depthimage_to_laserscan
+	url = https://github.com/ros-perception/depthimage_to_laserscan.git
