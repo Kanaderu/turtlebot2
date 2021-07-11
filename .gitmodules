@@ -64,3 +64,6 @@
 [submodule "src/dependencies/vision_opencv"]
 	path = src/vision_opencv
 	url = https://github.com/ros-perception/vision_opencv.git
+[submodule "src/dependencies/turtlebot_interactions"]
+	path = src/dependencies/turtlebot_interactions
+	url = https://github.com/turtlebot/turtlebot_interactions.git
