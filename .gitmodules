@@ -68,11 +68,14 @@
 	path = src/dependencies/turtlebot_interactions
 	url = https://github.com/turtlebot/turtlebot_interactions.git
 [submodule "src/dependencies/openni_camera"]
-	path = src/dependencies/kinect/openni_camera
+	path = src/dependencies/camera/kinect/openni_camera
 	url = https://github.com/ros-drivers/openni_camera.git
 [submodule "src/dependencies/kinect/rgbd_launch"]
-	path = src/dependencies/kinect/rgbd_launch
+	path = src/dependencies/camera/kinect/rgbd_launch
 	url = https://github.com/ros-drivers/rgbd_launch.git
 [submodule "src/dependencies/kinect/freenect_stack"]
-	path = src/dependencies/kinect/freenect_stack
+	path = src/dependencies/camera/kinect/freenect_stack
 	url = https://github.com/ros-drivers/freenect_stack.git
+[submodule "src/dependencies/xiton/openni2_camera"]
+	path = src/dependencies/camera/xiton/openni2_camera
+	url = https://github.com/ros-drivers/openni2_camera.git
