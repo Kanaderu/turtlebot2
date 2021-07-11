@@ -53,5 +53,5 @@
 	path = src/dependencies/yocs/yocs_msgs
 	url = https://github.com/yujinrobot/yocs_msgs.git
 [submodule "misc/kobuki_desktop"]
-	path = misc/kobuki_desktop
+	path = src/dependencies/kobuki/kobuki_desktop
 	url = https://github.com/yujinrobot/kobuki_desktop.git
