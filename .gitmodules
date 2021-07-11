@@ -55,3 +55,12 @@
 [submodule "misc/kobuki_desktop"]
 	path = src/dependencies/kobuki/kobuki_desktop
 	url = https://github.com/yujinrobot/kobuki_desktop.git
+[submodule "src/dependencies/turtlebot_apps"]
+	path = src/dependencies/turtlebot_apps
+	url = https://github.com/turtlebot/turtlebot_apps.git
+[submodule "src/dependencies/turtlebot_msgs"]
+	path = src/dependencies/turtlebot_msgs
+	url = https://github.com/turtlebot/turtlebot_msgs.git
+[submodule "src/dependencies/vision_opencv"]
+	path = src/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv.git
