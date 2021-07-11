@@ -97,3 +97,6 @@
 [submodule "src/dependencies/lidar/urg_c"]
 	path = src/dependencies/lidar/urg_c
 	url = https://github.com/ros-drivers/urg_c.git
+[submodule "src/dependencies/lidar/rplidar_ros"]
+	path = src/dependencies/lidar/rplidar_ros
+	url = https://github.com/robopeak/rplidar_ros.git
