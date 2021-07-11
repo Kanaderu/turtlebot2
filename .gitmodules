@@ -88,3 +88,12 @@
 [submodule "src/dependencies/camera/gscam"]
 	path = src/dependencies/camera/gscam
 	url = https://github.com/ros-drivers/gscam.git
+[submodule "src/dependencies/lidar/urg_node"]
+	path = src/dependencies/lidar/urg_node
+	url = https://github.com/ros-drivers/urg_node.git
+[submodule "src/dependencies/lidar/laser_proc"]
+	path = src/dependencies/lidar/laser_proc
+	url = https://github.com/ros-perception/laser_proc.git
+[submodule "src/dependencies/lidar/urg_c"]
+	path = src/dependencies/lidar/urg_c
+	url = https://github.com/ros-drivers/urg_c.git
