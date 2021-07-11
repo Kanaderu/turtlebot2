@@ -5,7 +5,7 @@
 pip install numpy catkin_pkg empy pyem rospkg rospy defusedxml pyqt5
 
 # install driver libraries
-sudo apt install -y libusb-dev libbluetooth-dev libboost-all-dev libcwiid-dev libspnav-dev libftdi-dev libfreenect-dev
+sudo apt install -y libusb-dev libbluetooth-dev libboost-all-dev libcwiid-dev libspnav-dev libftdi-dev libfreenect-dev libsensors4-dev
 
 # install ros sophus
 sudo apt install -y ros-noetic-sophus

@@ -79,3 +79,6 @@
 [submodule "src/dependencies/xiton/openni2_camera"]
 	path = src/dependencies/camera/xiton/openni2_camera
 	url = https://github.com/ros-drivers/openni2_camera.git
+[submodule "src/dependencies/linux_peripheral_interfaces"]
+	path = src/dependencies/linux_peripheral_interfaces
+	url = https://github.com/ros-drivers/linux_peripheral_interfaces.git
