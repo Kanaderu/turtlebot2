@@ -82,3 +82,9 @@
 [submodule "src/dependencies/linux_peripheral_interfaces"]
 	path = src/dependencies/linux_peripheral_interfaces
 	url = https://github.com/ros-drivers/linux_peripheral_interfaces.git
+[submodule "src/dependencies/camera/usb_cam"]
+	path = src/dependencies/camera/usb_cam
+	url = https://github.com/ros-drivers/usb_cam.git
+[submodule "src/dependencies/camera/gscam"]
+	path = src/dependencies/camera/gscam
+	url = https://github.com/ros-drivers/gscam.git
