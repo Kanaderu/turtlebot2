@@ -41,6 +41,10 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 
 This repository primarily links to other repositories to populate the `src/dependencies` directory with the packages for running the turtlebot. The `misc/` directory contains other repositories that cannot be directly cloned into the workspace.
 
+```bash
+git clone --recursive https://github.com/Kanaderu/turtlebot2.git
+```
+
 ### Install Dependencies
 
 Anaconda environments are used to isolate the python environment for use with ROS. The python packages are installed using `pip`. Additional Debian packages are also installed for compiling packages that interface with device drivers and interfaces (such as bluetooth). A script to install the python and Ubuntu packages can be executed by running the `./install.sh` script.
