@@ -23,13 +23,16 @@ conda activate ros-noetic
 
 ## run initial setup
 
-# install dependencies and setup misc repos
+# install dependencies and setup misc repos (only need to do this once)
 ./install.sh
-./setup-src.sh
+./setup_src.sh
 
 # compile
 catkin_make
 source devel/setup.bash
+
+# setup udev rules for physical turtlebot (only for physical turtlebot, only need to do this once)
+./setup_kobuki.sh
 
 # run gazebo simulator with turtlebot
 roslaunch turtlebot_gazebo turtlebot_world.launch
@@ -49,7 +52,7 @@ git clone --recursive https://github.com/Kanaderu/turtlebot2.git
 
 Anaconda environments are used to isolate the python environment for use with ROS. The python packages are installed using `pip`. Additional Debian packages are also installed for compiling packages that interface with device drivers and interfaces (such as bluetooth). A script to install the python and Ubuntu packages can be executed by running the `./install.sh` script.
 
-Setup for the cloned repos that couldn't directly cloned into the `src/dependencies` directory are instead cloned into the `misc/` directory. To copy over the specific packages from the `misc/` repos, run the script `./setup-src.sh`.
+Setup for the cloned repos that couldn't directly cloned into the `src/dependencies` directory are instead cloned into the `misc/` directory. To copy over the specific packages from the `misc/` repos, run the script `./setup_src.sh`.
 
 ### Compilation
 
