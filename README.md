@@ -11,6 +11,34 @@ Other versions of ROS/Ubuntu support will be added as separate branches:
 
 ## Quick Start
 
+Run the following to get quickly up and running:
+
+```bash
+git clone --recursive https://github.com/Kanaderu/turtlebot2.git
+cd turtlebot2/
+
+# setup an anaconda python environment for python3.8
+conda create -n ros-noetic python=3.8
+conda activate ros-noetic
+
+## run initial setup
+
+# install dependencies and setup misc repos
+./install.sh
+./setup-src.sh
+
+# compile
+catkin_make
+source devel/setup.bash
+
+# run gazebo simulator with turtlebot
+roslaunch turtlebot_gazebo turtlebot_world.launch
+
+# should be able to run keyboard_teleop
+```
+
+## Setup
+
 This repository primarily links to other repositories to populate the `src/dependencies` directory with the packages for running the turtlebot. The `misc/` directory contains other repositories that cannot be directly cloned into the workspace.
 
 ### Install Dependencies
