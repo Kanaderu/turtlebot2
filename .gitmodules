@@ -97,6 +97,3 @@
 [submodule "src/dependencies/lidar/rplidar_ros"]
 	path = src/dependencies/lidar/rplidar_ros
 	url = https://github.com/robopeak/rplidar_ros.git
-[submodule "src/dependencies/turtlebot"]
-	path = src/dependencies/turtlebot
-	url = git@github.com:Kanaderu/turtlebot.git
