@@ -1,9 +1,6 @@
 [submodule "src/joystick_drivers"]
 	path = src/dependencies/joystick_drivers
 	url = https://github.com/ros-drivers/joystick_drivers.git
-[submodule "src/dependencies/turtlebot"]
-	path = src/dependencies/turtlebot
-	url = https://github.com/turtlebot/turtlebot.git
 [submodule "src/dependencies/geometry2"]
 	path = src/dependencies/geometry2
 	url = https://github.com/ros/geometry2.git
@@ -100,3 +97,6 @@
 [submodule "src/dependencies/lidar/rplidar_ros"]
 	path = src/dependencies/lidar/rplidar_ros
 	url = https://github.com/robopeak/rplidar_ros.git
+[submodule "src/dependencies/turtlebot"]
+	path = src/dependencies/turtlebot
+	url = git@github.com:Kanaderu/turtlebot.git
